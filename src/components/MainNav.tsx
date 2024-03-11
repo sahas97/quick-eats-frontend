@@ -9,8 +9,6 @@ const MainNav = () => {
         <span className='flex space-x-2 items-center'>
             {isAuthenticated ? (<UsernameMenu />) : (<Button  variant="ghost" className='text-[17px] font-bold hover:text-gray-600 hover:bg-white' onClick={async () => await loginWithRedirect()}>Log In</Button>)}
         </span>
-
-
     );
 }
 
