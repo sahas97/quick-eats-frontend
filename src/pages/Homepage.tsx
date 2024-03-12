@@ -15,7 +15,7 @@ const Homepage = () => {
             <div className='md:px-32 bg-yellow-100 rounded-[20px] shadow-md py-8 flex flex-col gap-5 text-center -mt-16'>
                 <h1 className='text-5xl font-bold tracking-tight text-orange-500'>Tuck into takeaway Today</h1>
                 <span className='text-xl font-medium text-yellow-800'>Food is just a click away!</span>
-                <SearchBar placeHolder='Search by City or Town' onSubmit={handleSearchSubmit} searchQuery={''} />
+                <SearchBar placeHolder='Search by City or Town' onSubmit={handleSearchSubmit} />
             </div>
             <div className='grid md:grid-cols-2 gap-5'>
                 <img src={landingImage} alt="Lnading Image" />
